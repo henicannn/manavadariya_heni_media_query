@@ -14,7 +14,6 @@ body {
 
 
 .box {
-  	/*background-color: #8ea86e;*/
   	color: #fff;
   	border-radius: 5px;
   	padding: 20px;
@@ -27,40 +26,30 @@ body {
 .one {
   	background-color: blue;
   	color: #fff;
-  	border-radius: 5px;
-  	text-align: center;
- 	width: 100px;
- 	height: 400px;
 }
 
 .two {
   	background-color: purple;
   	color: #fff;
-  	border-radius: 5px;
-  	text-align: center;
- 	width: 100px;
- 	height: 400px;
 }
 
 .three {
   	background-color: grey;
   	color: #fff;
-  	border-radius: 5px;
-  	text-align: center;
- 	width: 100px;
- 	height: 400px;
 }
 
 .four {
   	background-color: brown;
   	color: #fff;
-  	border-radius: 5px;
-  	text-align: center;
- 	width: 100px;
- 	height: 400px;
 }
 
+@media screen and (max-width: 1140px) {
 
+	.wrapper {
+		transition: 0.3s;
+		flex-direction: row;
+	}
+}
 
 
 @media screen and (min-width: 300px) {
@@ -106,13 +95,4 @@ body {
 	}
 }
 
-
-
-@media screen and (max-width: 1140px) to (min-width: 300px;) {
-
-	.wrapper {
-		transition: 0.3s;
-		flex-direction: row;
-	}
-	}
 
