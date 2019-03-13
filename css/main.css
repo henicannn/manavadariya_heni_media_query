@@ -3,68 +3,55 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-.wrapper {
-	width: 500px;
+.mainDiv {
+	max-width: : 1140px;
   	margin: 0 auto;
-  	background-color: #efefef;	
-  	display: flex;
-  	flex-direction: row;
-  	justify-content: space-around
 }
 
+.secDiv {
+	display: flex;
+	flex-direction: row;
+}
 
-.box {
+/*.box {
   	color: #fff;
   	border-radius: 5px;
   	padding: 20px;
   	text-align: center;
- 	width: 100px;
- 	height: 400px;
+ 	width: 44%;
+ 	height: 440px;
  	
-}
+}*/
 
 .one {
   	background-color: blue;
-  	color: #fff;
+  	width: 44%;
+ 	height: 440px;
 }
 
 .two {
   	background-color: purple;
-  	color: #fff;
+  	width: 44%;
+ 	height: 440px;
 }
 
 .three {
   	background-color: grey;
-  	color: #fff;
+  	width: 44%;
+ 	height: 440px;
 }
 
 .four {
   	background-color: brown;
-  	color: #fff;
-}
-
-@media screen and (max-width: 1140px) {
-
-	.wrapper {
-		transition: 0.3s;
-		flex-direction: row;
-	}
+  	width: 44%;
+ 	height: 440px;
 }
 
 
-@media screen and (min-width: 300px) {
 
-	.wrapper {
-		width: 100%;
-		transition: 0.3s;
-		flex-direction: row;
-	}
+@media screen and (max-width: 641px) {
 
-
-}
-@media screen and (max-width: 300px) {
-
-	.wrapper {
+	.secDiv {
 		width: 100%;
 		transition: 0.3s;
 		flex-direction: column;
